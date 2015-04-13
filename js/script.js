@@ -14,3 +14,25 @@ function highlightThis(event) {
     alert(this.className);
     this.style.backgroundColor=backgroundColor;
 }
+
+$(document).foundation();
+/*$(document).ready(function(){
+    angular.module('app', [
+      '720kb.datepicker'
+      ]);
+};
+(function withAngular(angular) {
+  'use strict';
+
+  angular.module('720kb', [
+    'ngRoute',
+    '720kb.datepicker',
+    'hljs'
+  ]).config(['hljsServiceProvider', function configurationFunction(hljsServiceProvider) {
+
+    hljsServiceProvider.setOptions({
+      // replace tab with 4 spaces
+      'tabReplace': ''
+    });
+  }]);
+}(angular));*/
